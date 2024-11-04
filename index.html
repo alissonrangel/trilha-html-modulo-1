@@ -1,102 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
+    <style>
+      * {
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2 id="indice">Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#historia">História dos computadores</a></li>
-        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
-        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
-        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#links">Links de referências</a></li>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+      <li>
+        <a href="#listas"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#links">Links de referências</a></li>
     </ul>
-
+    <hr />
     <h2 id="historia">História dos computadores</h2>
-    <p><a href="#indice"><u>(voltar)</u></a>
-         História dos computadores
-         década de 40 - 1a geração de computadores, com computadores gigantescos no tamanho e servindo para gerar cálculos complexos, que seria usado pelos Eua e Alemanha para a guerra, pois foram criados durante a 2a Guerra Mundial.
-         Computador Eniac  e o Colossus (Alemanha).
-         Nesse tempo surgiu o termo bug, que significa inseto, pois os insetos pousavam nos equipamentos delicados e terminavam dando problemas nas máquinas.
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
 
-         2a Geração: 1959 - 1965
-         Com transistores. Assim houve uma diminuição do tamanho dos computadores.
+    <h3>1<sup>a</sup> geração: década de 40</h3>
+    <p>
+      Com computadores gigantescos no tamanho e servindo para gerar cálculos
+      complexos, que seria usado pelos Eua e Alemanha para a guerra, pois foram
+      criados durante a 2<sup>a</sup> Guerra Mundial. Computador Eniac e o
+      Colossus (Alemanha). Nesse tempo surgiu o termo bug, que significa inseto,
+      pois os insetos pousavam nos equipamentos delicados e terminavam dando
+      problemas nas máquinas.
+    </p>
 
-         3a Geração: 1965 - 1970
-         Com circuitos integrados, deixando os computadores menores e mais portáteis.
+    <h3>2<sup>a</sup> Geração: 1959 - 1965</h3>
+    <p>
+      Substituição das válvulas e relés por transistores. Assim houve uma
+      diminuição do tamanho dos computadores.
+    </p>
 
-         4a Geração: 1971 - ...
-         Microprocessadores, computadores pessoais. Mias populares e acessíveis.
-         Marcada também pela criação do mouse com o ambiente gráfico.
+    <h3>3<sup>a</sup> Geração: 1965 - 1970</h3>
+    <p>
+      Com circuitos integrados, deixando os computadores menores, mais portáteis
+      e com maior rapidez de processamento. Com o início do uso de sistemas
+      operacionais mais modernos.
+    </p>
 
-         5a Geração ?
-         Computadores quânticos
-         Criptomoedas
-         IA
-         Metaverso
-      </p>
-      <p>
-         Internet - como surgiu?
-         Pela necessidade de comunicação entre locais distantes. Começou com os telégrafos com código morse.
-         1958, canal submarino ligando locais pelo oceano.
-         Durante a Guerra Fria, acabou levando a grandes desenvolvimentos na tecnologia de computadores e de comunicação.
-         Surgimento da Darpa.
-         Surgimento da Arpanet, início da internet.
+    <h3>4<sup>a</sup> Geração: 1971 - ...</h3>
+    <p>
+      Criação dos microprocessadores, computadores pessoais. Mais populares e acessíveis.
+      Marcada também pela criação do mouse com seu uso em um ambiente gráfico.
+    </p>
+    <blockquote>
+      <font color="red">
+        <strong>
+          É caracterizada por um aperfeiçoamento da tecnologia já existente,
+          proporcionando uma otimização da máquina para os problemas do usuário,
+          maior grau de miniaturização, confiabilidade e velocidade maior, já da
+          ordem de nanosegundos (bilionésima parte do segundo).
+        </strong>
+      </font>
+    </blockquote>
+    <a
+      href="https://www.ime.usp.br/~macmulti/historico/histcomp1_12.html"
+      target="_blank"
+      >Gerações de Computadores</a
+    >
 
-      </p>
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3>5<sup>a</sup> Geração ?</h3>
+    <p>
+      Há quem diga que hoje seria já a 5<sup>a</sup> geração devido aos
+      computadores quânticos,às criptomoedas, à inteligência artificial e ao
+      metaverso
+    </p>
+
+    <h3>Internet - como surgiu?</h3>
+    <p>
+      Pela necessidade de comunicação entre locais distantes. Começou com os
+      telégrafos com código morse. Em 1958, foi feito um canal submarino ligando
+      locais pelo oceano. Durante a Guerra Fria, acabou levando a grandes
+      desenvolvimentos na tecnologia de computadores e de comunicação.
+      Surgimento da
+      <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr>.
+      Surgimento da
+      <abbr title="Advanced Research Projects Agency Network">ARPANET</abbr>,
+      início da internet.
+    </p>
+    <hr />
 
     <h2 id="clients">O que são <i>Clients</i>?</h2>
-    <p><a href="#indice"><u>(voltar)</u></a>
-       Na programação web, client significa o lado da comunicação entre client e server. Ele faz a requisição pelo browser para um
-       server remoto. Este server remoto é o local que contém as informações que o client necessita. O client pode acessar a rede
-       através de vários dispositivos como pcs, tablets, laptops ou smartphones. Eles acessam a internet atráves dos navegadores, ou por aplicativos que acessam os servers sem usar navegadores. Os navegadores também são chamados de browsers. Os mais comuns atualmente são o Chrome, o Firefox, o Safari e o Edge.
-       Os navegadores, no lado client, receberão dos servers as aplicações web que ficam hospedadas neles.
-       
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
+    <p>
+      Na programação web, <i>client</i> significa o lado da comunicação entre
+      <i>client</i> e server. Ele faz a requisição pelo browser para um
+      <i>server</i> remoto. Este server remoto é o local que contém as
+      informações que o <i>client</i> necessita. O <i>client</i> pode acessar a
+      rede através de vários dispositivos como pcs, tablets, laptops ou
+      smartphones. Eles acessam a internet atráves dos navegadores, ou por
+      aplicativos que acessam os <i>servers</i> sem usar navegadores. Os
+      navegadores também são chamados de browsers. Os mais comuns atualmente são
+      o Chrome, o Firefox, o Safari e o Edge. Os navegadores, no lado client,
+      receberão dos servers as aplicações web que ficam hospedadas neles.
+      Javascript é uma linguagem de programação que roda do lado <i>client</i>.
+    </p>
+    <hr />
 
     <h2 id="servers">O que são <i>Servers</i>?</h2>
-    <p><a href="#indice"><u>(voltar)</u></a>
-       O server é o lado da comunicação client x server que aguarda uma requisição do client para poder enviar uma resposta.
-       A sua resposta ocorre através do envio de arquivos HTML, CSS, Javascript, imagens, etc. Ele pode estar com acesso direto a
-       servidor de banco de dados, aonde ele pega informações para enviar a o client, com base na requisição desse client.
-       Existem servidores de: arquivos, segurança, streaming, e-mail e web. Eles podem estar em grandes datacenter como no quarto de uma casa.
-       Existem sistemas operacionais próprios para servidores, como: Windows Server e servidores baseados no Linux.
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
+    <p>
+      O <i>server</i> é o lado da comunicação <i>client</i> - <i>server</i> que
+      aguarda uma requisição do <i>client</i> para poder enviar uma resposta. A
+      sua resposta ocorre através do envio de arquivos HTML, CSS, Javascript,
+      imagens, etc. Ele pode estar com acesso direto a um servidor de banco de
+      dados, aonde ele pega informações para enviar ao <i>client</i>, com base
+      na requisição desse <i>client</i>. Existem servidores de: arquivos,
+      segurança, streaming, e-mail e web. Eles podem estar em grandes
+      datacenters como no quarto de uma casa. Existem sistemas operacionais
+      próprios para servidores, como: Windows Server e servidores baseados no
+      Linux. Existem linguagens de programações usadas no servidor, como: php,
+      java, ruby, javascript e C#.
+    </p>
+    <hr />
     <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
-    <p><a href="#indice"><u>(voltar)</u></a>
-      
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.
-      </p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
+    <p>
+      Uma página HTML é formada por tags que fazem marcações no arquivo, cada
+      uma tendo sua finalidade. A primeira tag que existe é a html, que envolve
+      todo o código. Dentro dela tem as tags head e body. Dentro da delimitação
+      da tag head, existe outras tags que se utiliza, elas são tags de
+      configurações do código html.
+    </p>
+    <blockquote>
+      <mark
+        >O elemento HTML head providencia informações gerais (metadados) sobre o
+        documento, incluindo seu título e links para scripts e folhas de
+        estilos.</mark
+      >
+    </blockquote>
+    Exemplos de tags existentes dentro da head são: meta, title, link, style.
+    <a style="display: block" target="_blank" href="https://www.w3schools.com/tags/tag_head.asp"
+      >HTML head Tag</a
+    >
+    Na tag body é que vai existir o que de fato vai aparecer para o usuário,
+    nela existe dezenas de tags: tags de formatação, tags de estruturação do
+    código, âncoras (são links para dentro ou para fora do documento), tags de
+    formulário, tags de tabelas, etc. Cada tag possui um conjunto de atributos
+    que se pode usar.
+    <a
+      style="display: block"
+      href="https://www.w3schools.com/tags/"
+      target="_blank"
+      >HTML Element Reference</a
+    >
+    <div style="text-align: center">
+      <img src="imagem.png" width="500" alt="código html" />
+    </div>
 
-    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <a href="#indice"><u>(voltar)</u></a>
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr />
 
+    <h2 id="listas">
+      Entendendo a diferença entre listas ordenadas e não ordenadas
+    </h2>
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
+    <p>
+      Existem dois tipos de listas no html, a lista ordenada criada com a tag
+      "ol" e a lista não ordenada criada com a tag "ul". A tag ordenada, vai ser
+      usada para listar itens colocando uma numeração antes do item. Esta
+      numeração pode ser com números cardinais, numeração romana e numeração
+      alfabética.
+    </p>
+    <div style="display: flex">
+      <pre>
+        &lt;ol>
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ol>
+      </pre>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+    </div>
+    <div style="display: flex">
+      <pre>
+        &lt;ol type="I">
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ol>
+      </pre>
+      <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+    </div>
+    <div style="display: flex">
+      <pre>
+        &lt;ol type="A">
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ol>
+      </pre>
+      <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+    </div>
+    A tag não ordenada cria a lista de itens com um marcador para cada item da
+    lista. Este marcador pode ser um disco, um círculo ou um quadrado, por
+    exemplo.
+    <div style="display: flex">
+      <pre>
+        &lt;ul type="disc">
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ul>
+      </pre>
+      <ul type="disc">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <div style="display: flex">
+      <pre>
+        &lt;ul type="circle">
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ul>
+      </pre>
+      <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <div style="display: flex">
+      <pre>
+        &lt;ul type="square">
+          &lt;li>Item 1&lt;/li>
+          &lt;li>Item 2&lt;/li>
+          &lt;li>Item 3&lt;/li>
+        &lt;/ul>
+      </pre>
+      <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+
+    <hr />
     <h2 id="links">Links de referências</h2>
-    <p><a href="#indice"><u>(voltar)</u></a>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <a href="#indice"
+      ><u><small>(voltar)</small></u></a
+    >
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-        <li><a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp" target="_blank"><i>w3schols Browser Support</i></a></li>
+      <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+      <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+      <li>
+        <a
+          href="https://www.ime.usp.br/~macmulti/historico/histcomp1_12.html"
+          target="_blank"
+          >https://www.ime.usp.br/~macmulti/historico/histcomp1_12.html</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.w3schools.com/tags/ref_html_browsersupport.asp"
+          target="_blank"
+          ><i>https://www.w3schools.com/tags/ref_html_browsersupport.asp</i></a
+        >
+      </li>
+      <li>
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/head"
+          target="_blank"
+          >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/head</a
+        >
+      </li>
     </ul>
-
-</body>
+  </body>
 </html>
